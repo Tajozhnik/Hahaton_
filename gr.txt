@@ -1,0 +1,353 @@
+import React from 'react';
+
+const Page1 = () => {
+  return (
+    <div>
+      <div
+        style={{
+          position: 'absolute',
+          top: -37,
+          left: -552,
+          width: 1200,
+          height: 73,
+          backgroundColor: 'rgba(11, 19, 40, 1)'
+        }}
+      >
+        <div
+          style={{
+            position: 'relative',
+            top: 16,
+            left: 24,
+            width: 111,
+            height: 41
+          }}
+        >
+          <img
+            src="logo.png"
+            alt="logo"
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 111,
+              height: 41
+            }}
+          />
+          <div
+            style={{
+              position: 'absolute',
+              top: 21.396,
+              left: 1.342,
+              width: 91.12,
+              height: 15.35,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            МАМКИН
+          </div>
+          <div
+            style={{
+              position: 'absolute',
+              top: 21.396,
+              left: 18.011,
+              width: 14.91,
+              height: 15.35,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            МАМКИН
+          </div>
+          <div
+            style={{
+              position: 'absolute',
+              top: 42.33,
+              left: 1.36,
+              width: 110.16,
+              height: 18.59,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            ДИЗАЙНЕР
+          </div>
+          <div
+            style={{
+              position: 'absolute',
+              top: 59.5,
+              left: 64.29,
+              width: 6.58,
+              height: 2.85,
+              backgroundColor: 'rgba(221, 20, 60, 1)'
+            }}
+          >
+            ДИЗАЙНЕР
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          position: 'absolute',
+          top: -21,
+          left: -528,
+          width: 1152,
+          height: 41
+        }}
+      >
+        <div
+          style={{
+            position: 'relative',
+            top: 21,
+            left: 0,
+            width: 115,
+            height: 20
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 115,
+              height: 20,
+              backgroundColor: 'rgba(221, 20, 60, 1)',
+              color: 'white'
+            }}
+          >
+            Весь материал
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'relative',
+            top: 21,
+            left: 115,
+            width: 51,
+            height: 20
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 51,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            Тексты
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'relative',
+            top: 21,
+            left: 166,
+            width: 59,
+            height: 20
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 59,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            Митапы
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'relative',
+            top: 21,
+            left: 225,
+            width: 46,
+            height: 20
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 46,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            Figma
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'relative',
+            top: 21,
+            left: 271,
+            width: 63,
+            height: 20
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 63,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            Заметки
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'relative',
+            top: 21,
+            left: 334,
+            width: 76,
+            height: 20
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 76,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            Дайджест
+          </div>
+          <div
+            style={{
+              position: 'absolute',
+              top: -10.5,
+              left: 14,
+              width: 20,
+              height: 20
+            }}
+          >
+            <img
+              src="search-normal.png"
+              alt="search-normal"
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: 20,
+                height: 20
+              }}
+            />
+            <div
+              style={{
+                position: 'absolute',
+                top: 1.1667,
+                left: 0.8333,
+                width: 15.83,
+                height: 15.83
+              }}
+            >
+              <svg
+                width="15.83"
+                height="15.83"
+                viewBox="0 0 15.83 15.83"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.125 3.93745C11.7474 5.55984 11.7474 8.76042 10.125 10.3828C8.5026 12.0052 5.30202 12.0052 3.67963 10.3828C2.05723 8.76042 2.05723 5.55984 3.67963 3.93745C5.30202 2.31505 8.5026 2.31505 10.125 3.93745Z"
+                  stroke="black"
+                  strokeWidth="1.5"
+                />
+                <path
+                  d="M10.4827 9.41126C11.7443 8.14968 11.7443 5.17038 10.4827 3.90879C9.22113 2.64721 6.24183 2.64721 4.98024 3.90879C3.71866 5.17038 3.71866 8.14968 4.98024 9.41126C6.24183 10.6728 9.22113 10.6728 10.4827 9.41126Z"
+                  stroke="black"
+                  strokeWidth="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'relative',
+            top: -10.5,
+            left: 412,
+            width: 47,
+            height: 20
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 47,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            Поиск
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          position: 'absolute',
+          top: -10.5,
+          left: 306,
+          width: 318,
+          height: 20
+        }}
+      >
+        <div
+          style={{
+            position: 'relative',
+            top: 0,
+            left: 0,
+            width: 250,
+            height: 20
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 62,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            youtube
+          </div>
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 62,
+              width: 18,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
+            vk
+          </div>
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 80,
+              width: 67,
+              height: 20,
+              backgroundColor: 'rgba(255, 255, 255, 1)'
+            }}
+          >
