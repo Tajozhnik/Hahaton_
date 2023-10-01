@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding-top: 40px;
+    color: #ffffff;
+    background: url(../images/intro3.jpg) center no-repeat;
+    font-family: 'Martian Mono', monospace;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container  {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+/* Ваши остальные стили остаются без изменений */
+
+/* Задний фон кнопок сделан прозрачным */
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0); /* Прозрачный фон */
+    text-decoration: none;
+    transition: background 0.1s linear, color 0.1s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #15adad;
+}
+
+.text-right {
+    background-color: transparent;
+}
+
+/* Стили для полей ввода */
+input {
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent; /* Прозрачный фон */
+    transition: background 0.1s linear, color 0.1s linear;
+}
+
+/* Navigation */
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    
+    color: #fff;
+    text-decoration: none;
+
+    transition: color 0.1s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+
+    background-color: #36C4C5;
+    opacity: 0;
+    
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity 0.1s linear;
+}
+
+.nav__link:hover {
+    color: #36C4C5;
+}
+
+.nav__link:hover:after {
+    color: #36C4C5;
+    opacity: 1;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+/* Header Inner */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Logo */
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.account-settings .user-profile {
+    margin: 30px auto;
+    padding-bottom: 1rem;
+    position: left;
+    text-align: left;
+}
+
+.page-wrapper {
+    /* display: flex; */
+    justify-content: center; 
+    align-items: center;
+        /* height: 100vh; Высота экрана, чтобы элементы были посередине вертикально */
+}

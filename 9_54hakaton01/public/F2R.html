@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap" rel="stylesheet">
+    <title>F2R</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">Figma To React</div>
+
+                <nav class="nav">
+                    <a class="nav__link" href="index.html">Home</a>
+                    <a class="nav__link" href="login.html">Sign In</a>
+                    <a class="nav__link" href="profile2.html">Profile</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="f2r__intro">
+        <div class="f2r__container">
+            <div class="f2r__intro__inner">
+              <form id="main-form" onsubmit="return checkForm(this)" method="post">
+                <!-- <label class="f2r__intro__suptitle">API Key:</label>
+                <br></br>
+                <input type="text" name="api_key" class="f2r__txt" autocomplete="off" placeholder="Enter your Figma API Key" id="api_key"> -->
+                <br></br>
+                <br></br>
+                <label class="f2r__intro__suptitle">Введите Figma File ID:</label>
+                <br></br>
+                <input type="text" name="file_id" class="f2r__txt" autocomplete="off" placeholder="Figma File ID" required id="file_id">
+                <br></br>
+                <div id="error" style="color: red"></div>
+                <button class="btn__f2r" type="submit">Отправить</button>
+              </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

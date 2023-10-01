@@ -1,0 +1,225 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url(../images/intro4.jpg) center no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Martian Mono', monospace;
+}
+.wrapper {
+	width: 420px;
+	height: 420px;
+	background-color: transparent;
+	color: #fff;
+	border-radius: 10px;
+	padding: 30px 40px;
+}
+.wrapper h1 {
+	font-size: 36px;
+	text-align: center;
+
+}
+.wrapper .input-box {
+	position: relative;
+	width: 85%;
+	height: 40px;
+	margin: 50px 0;
+}
+.input-box input {
+	width: 100%;
+	height: 80%;
+	background: transparent;
+	/* filter: blur(4px); */
+	backdrop-filter: blur(5px);
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	font-size: 16px;
+	color: #fff;
+	padding: 10px 45px 10px 10px;
+}
+
+.input-box input::placeholder {
+	color: #fff;
+}
+
+/* .input-box i {
+	position: absolute;
+	right: -45px;
+	top: 69%;
+	transform: translateY(-50%);
+	font-size: 20px;
+} */
+.wrapper .remember-forgot {
+	display: flex;
+	justify-content: right;
+	font-size: 14.5px;
+	margin: -5px 0 30px;
+}
+
+/* .remember-forgot a {
+	color: #fff;
+	text-decoration: none;
+}
+.remember-forgot a:hover {
+	text-decoration: underline;
+} */
+
+.remember-forgot label input {
+	accent-color: #fff;
+	margin-left: 3px;
+	position: right;
+}
+
+.custom__checkbox {
+	position: right;
+	z-index: -1;
+	opacity: 1;	
+
+  }
+/* 
+.wrapper .btn {
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	outline: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+
+} */
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 180px;
+	margin: 0 auto;
+	/* position: center; */
+	justify-content: center;
+	text-align: center;
+	white-space: nowrap;	
+
+    border: 2px solid #fff;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff	;
+	background-color: transparent;
+    text-decoration: none;
+
+    transition: background 0.1s linear, color 0.1s linear; 
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #15adad;
+}
+
+.wrapper .register-link {
+	font-size: 14.5px;
+	text-align: center;
+	margin: 20px 0 15px;
+}
+
+.register-link p a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.register-link p a:hover {
+	text-decoration: underline;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+/* Header Inner */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Logo */
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Navigation */
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    
+    color: #fff;
+    text-decoration: none;
+
+    transition: color 0.1s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+
+    background-color: #36C4C5;
+    opacity: 0;
+    
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity 0.1s linear;
+}
+
+.nav__link:hover {
+    color: #36C4C5;
+}
+
+.nav__link:hover:after {
+    color: #36C4C5;
+    opacity: 1;
+}
+
+/* Container */
+.container  {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+input {
+    font-family: 'Martian Mono', monospace;;
+}

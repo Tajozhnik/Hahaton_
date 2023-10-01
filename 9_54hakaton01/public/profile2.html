@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/test.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap" rel="stylesheet">
+    <title>Личный кабинет</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="containerhead">
+            <div class="header__inner">
+                <div class="header__logo">Личный кабинет</div>
+    
+                <nav class="nav">
+                    <a class="nav__link" href="index.html">Home</a>
+                    <a class="nav__link" href="F2R.html">F2R</a>
+                    <!-- <a class="nav__link" href="login.html">Sign In</a> -->
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1></h1>
+        <form>
+            <div class="form-group">
+                <label for="email">Почта:</label>
+                <input type="email" id="email" name="email" placeholder="Введите вашу почту" required>
+            </div>
+            <div class="form-group">
+                <label for="figmaApiKey">API ключ Figma:</label>
+                <input type="text" id="figmaApiKey" name="figmaApiKey" placeholder="Введите ваш API ключ Figma" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Введите ваш номер телефона" required>
+            </div>
+            <div class="button-group">
+                <button class="btn" type="button" id="changeButton">Сменить</button>
+                <button class="btn" type="submit" id="saveButton">Сохранить</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
